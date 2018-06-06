@@ -1,0 +1,178 @@
+/* HOME */
+
+.clear {
+    clear: both;
+}
+
+header {
+    text-align: center;
+	background: url(images/back.jpg);	
+    height: 600px;
+    font-family: 'Prompt', sans-serif;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#menu > a {
+    color: white;
+    text-decoration: none;
+}
+#menu {
+	display: flex;
+	height: 150px;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-start;
+
+}
+#log img {
+	width: 50px;
+	margin: 10px;
+}
+h1 {
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+    color: #188c81a6;
+    font-size: 310%;
+    letter-spacing: 17px;
+}
+#shop {
+    text-align: center;
+}
+#shop > a {
+    font-family: 'Prompt', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+.flexColumn {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+.group {
+    margin: 5px 5px 0 0;
+    position: relative;
+    height: calc(50% - 5px);
+    
+}
+.container img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.groupLeft {
+    width: calc(67% - 10px);
+    margin: 5px;
+    float: left;
+    position: relative;
+}
+
+
+.container button {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-family: 'Prompt', sans-serif;
+    background: #f0f8ff00;
+    color: #ff6a00b0;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    color: #ff6c008a;
+}
+.container h3 {
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #ff6c008a;
+    letter-spacing: 5px;
+}
+p {
+    text-align: center;
+    font-size: 275%;
+    color: #ff6c008a;
+}
+.bock > a {
+    font-family: 'Prompt', sans-serif;
+    color: #ff6c008a;
+    text-decoration: none;
+}
+.bock {
+    text-align: center;
+}
+.sale {
+    background: url(images/back2.jpg);
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sale > h2 {
+    text-align: center;
+    padding: 130px;
+    color: #157e96;
+    font-size: 500%;
+    letter-spacing: 30px;
+}
+.shopSale {
+    text-align: center;
+}
+.shopSale > a {
+    font-family: 'Prompt', sans-serif;
+    color: #229489f2;
+    text-decoration: none;
+}
+.folow {
+    letter-spacing: 5px;
+}
+.folow h2 a {
+    font-family: 'Prompt', sans-serif;
+    color: #ff6c008a;
+    text-decoration: none;
+}
+.im {
+    width: 100%;
+    max-width: 900px;
+    background: white;
+    margin: 0 auto;
+}
+.product {
+    width: 25%;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+.product img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    min-height: 100px;
+    background: #a52a2a26;
+    margin: 5px;
+}    
+h2 {
+    letter-spacing: 10px;
+}
+.flex a {
+    font-family: 'Prompt', sans-serif;
+    color: #ff6c008a;
+    text-decoration: none;
+}
+.border {
+    border-radius: 5px;
+}
